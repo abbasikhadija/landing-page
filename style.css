@@ -1,0 +1,154 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 150px;
+    gap: 40px;
+}
+
+.content {
+    max-width: 450px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 24px;
+}
+
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 10px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+
+.info {
+    padding: 60px 150px;
+    text-align: center;
+}
+
+.info_header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info_content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.info_content div {
+    max-width: 200px;
+}
+
+.info_content p {
+    font-size: 18px;
+    color: #1f2937;
+}
+
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 70px 170px 80px;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    text-align: center;
+    font-style: italic;
+}
+
+
+.footer {
+    background-color: #1f2937;
+    margin: 80px 150px;
+    padding: 40px 60px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer strong {
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.footer p {
+    color: #e5e7eb;
+    margin-top: 8px;
+}
+
+.footer button {
+    border: 2px solid #f9faf8;
+}
